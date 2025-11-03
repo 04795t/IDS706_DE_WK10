@@ -45,7 +45,7 @@ Tasks 1-2 and 3-4 run in parallel.
 ## Setup
 ```bash
 # Clone repo
-git clone https://github.com/YOUR_USERNAME/airflow-data-pipeline.git
+git clone https://github.com/04795t/IDS706_DE_WK10.git
 cd airflow-data-pipeline
 
 # Build and start
