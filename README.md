@@ -68,6 +68,7 @@ docker compose up -d
 - Port: `5432`
 
 ## PySpark
+PySpark is scalable to big data, and allows for distributed processing. 
 Uses Spark for distributed data aggregation instead of Pandas:
 ```python
 state_sales = df_spark.groupBy("state") \
@@ -75,9 +76,6 @@ state_sales = df_spark.groupBy("state") \
     .orderBy(col("total_sales").desc()) \
     .limit(10)
 ```
-
-**Why PySpark?**
-- PySpark is scalable to big data, and allows for distributed processing. 
 
 ## Results
 - 500 orders loaded to PostgreSQL
